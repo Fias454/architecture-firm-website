@@ -1,0 +1,925 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+#NameOfSite{
+    cursor: default;
+    display: inline;
+}
+#MenuTop{
+    height: 60px;
+}
+#FirstNameOfsite{
+    display: inline;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+}
+#SecondNameOfsite{
+    display: inline;
+    font-size: 25px;
+}
+#ButtonToNavigate{
+    display: inline;
+    margin-left: 83%;
+}
+#SecondNameOfsite{
+    display: inline;
+}
+#ButtonToNavigate{
+    display: inline-block;
+    margin-left: 0%;
+}
+#ContactUsButton{
+    display: inline-block;
+}
+#IMGForUsPage{
+    width: 100%;
+    height: 475px;
+}
+#FirstNameForUsPage{
+    margin-left: 40%;
+    margin-top: 30%;
+}
+#SecondNameForUsPage{
+    margin-left: 43%;
+    margin-top: 30%;
+    color: orangered;
+}
+#AllProjects{
+    display: inline;
+}
+
+#SummerHouse{
+    display: inline;
+}
+#SummerHouseName{
+    width: fit-content;
+}
+#SummerHouseIMG{
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px;
+    transition: box-shadow 0.3s ease;
+}
+#SummerHouseIMG:hover{
+    box-shadow: 10px 15px 15px;
+}
+#SummerHouseName{
+    position: absolute;
+}
+#WoodenHouse{
+    display: inline-block;
+    margin-left: 10%;
+}
+#WoodenHouseIMG{
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px;
+    transition: box-shadow 0.3s ease;
+}
+#WoodenHouseIMG:hover{
+    box-shadow: 10px 15px 15px;
+}    
+
+#ModernHouse{
+    display: inline-block;
+    margin-left: 10%;
+}
+#ModernHouseIMG{
+    width: 200px;
+    height: 300px;
+    box-shadow: 5px 5px 5px;
+    transition: box-shadow 0.3s ease;
+}
+#ModernHouseIMG:hover{
+    box-shadow: 10px 15px 15px;
+}
+#BigHouse{
+    display: inline-block;
+}
+#BigHouseName{
+    margin-left: 45%;
+}
+#BigHouseIMG{
+    width: 200px;
+    height: 300px;
+    margin-left: 45%;
+    box-shadow: 5px 5px 5px;
+    transition: box-shadow 0.3s ease;
+}
+#BigHouseIMG:hover{
+    box-shadow: 10px 15px 15px;
+}
+#ContactUsButton{
+    background-color: white;
+    border: none;
+    width: 80px;
+    height: 50px;
+}
+#ContactUsButton:hover{
+    background-color: whitesmoke;
+}
+#IMGForUsPage{
+    width: 100%;
+    height: 700px;
+}
+#FirstNameForUsPage{
+    position: absolute;
+    margin-left: 60%;
+    margin-top: 35%;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    width: 30px;
+    height: 30px;
+}
+#SecondNameForUsPage{
+    position: absolute;
+    font-size: 25px;
+    margin-left: 62.5%;
+    margin-top: 35%;
+}
+#contactForm{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 5%;
+}
+#inputName{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#inputMail{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#submitbtn{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+#inputMessage{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#inputSubject{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+#Firstperson{
+    display: inline-block;
+    width: min-content;
+}
+#NameOffirst1{
+    text-align: center;
+}
+#SecondPerson{
+    display: inline-block;
+    width: min-content;
+    margin-left: 25%;
+}
+#NameOfSecond{
+    text-align: center;
+}
+#ThirdPerson{
+    display: inline-block;
+    width: min-content;
+    margin-left: 25%;
+}
+#NameOfThird{
+    text-align: center;
+}
+@media (min-width:200px) and (max-width: 400px) {
+#NameOfSite{
+    display: inline-block;
+}
+#FirstNameOfsite{
+    display: inline;
+    width: fit-content;
+}
+#SecondNameOfsite{
+    display: inline;
+}
+#ButtonToNavigate{
+    display: inline-block;
+    margin-left: 0%;
+}
+#ContactUsButton{
+    display: inline-block;
+}
+#IMGForUsPage{
+    width: 100%;
+    height: 300px;
+}
+#FirstNameForUsPage{
+    margin-left: 40%;
+    margin-top: 60%;
+}
+#SecondNameForUsPage{
+    margin-left: 50%;
+    margin-top: 60%;
+    color: orangered;
+}
+#SummerHouseIMG{
+    width: 100%;
+    margin-left: 0%;
+    box-shadow: unset;
+}
+#SummerHouseIMG:hover{
+    box-shadow: unset;
+}
+#WoodenHouse{
+    margin-left: initial;
+    width: fit-content;
+}
+#WoodenHouseIMG{
+    width: 100%;
+    margin-left: 0%;
+    box-shadow: unset;
+}
+#WoodenHouseIMG:hover{
+    box-shadow: unset;
+}
+#ModernHouse{
+    margin-left: initial;
+    width: fit-content;
+}
+#ModernHouseIMG{
+    width: 100%;
+    box-shadow: unset;
+}
+#ModernHouseIMG:hover{
+    box-shadow: unset;
+}
+#BigHouse{
+    margin-left: initial;
+}
+#BigHouseIMG{
+    width: 100%;
+    margin-left: 0%;
+    box-shadow: unset;
+}
+#BigHouseIMG:hover{
+    box-shadow: unset;
+}
+#BigHouseName{
+    margin-left: 0%;
+}
+#Firstperson{
+    display: block;
+    width: min-content;
+}
+#NameOffirst1{
+    text-align: center;
+}
+#SecondPerson{
+    display: block;
+    width: min-content;
+    margin-left: unset;
+}
+#NameOfSecond{
+    text-align: center;
+}
+#ThirdPerson{
+    display: block;
+    width: min-content;   
+    margin-left: unset;
+}
+#NameOfThird{
+    text-align: center;
+}
+}
+@media (min-width:400px) and (max-width:500px) {
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 300px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 50%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 50%;
+        margin-top: 50%;
+        color: orangered;
+    }
+    #SummerHouseIMG{
+        width: 100%;
+        margin-left: 0%;
+        box-shadow: unset;
+    }
+    #SummerHouseIMG:hover{
+        box-shadow: unset;
+    }
+    #WoodenHouse{
+        margin-left: initial;
+        width: fit-content;
+        box-shadow: unset;
+    }
+    #WoodenHouseIMG{
+        width: 100%;
+        margin-left: 0%;
+        box-shadow: unset;
+    }
+    #WoodenHouseIMG:hover{
+        box-shadow: unset;
+    }
+    #ModernHouse{
+        margin-left: initial;
+        width: fit-content;
+    }
+    #ModernHouseIMG{
+        width: 100%;
+        box-shadow: unset;
+    }
+    #ModernHouseIMG:hover{
+        box-shadow: unset;
+    }
+    #BigHouse{
+        margin-left: initial;
+    }
+    #BigHouseIMG{
+        width: 100%;
+        margin-left: 0%;
+        box-shadow: unset;
+    }
+    #BigHouseIMG:hover{
+        box-shadow: unset;
+    }
+    #BigHouseName{
+        margin-left: 0%;
+    }
+    #Firstperson{
+        display: block;
+        width: min-content;
+    }
+    #NameOffirst1{
+        text-align: center;
+    }
+    #SecondPerson{
+        display: block;
+        width: min-content;
+        margin-left: unset;
+    }
+    #NameOfSecond{
+        text-align: center;
+    }
+    #ThirdPerson{
+        display: block;
+        width: min-content;   
+        margin-left: unset;
+    }
+    #NameOfThird{
+        text-align: center;
+    }
+}
+@media (min-width:500px) and (max-width:700px) {
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 350px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 40%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 48%;
+        margin-top: 40%;
+        color: orangered;
+    }
+    #AllProjects{
+        display: inline;
+    }
+    #SummerHouse{
+        display: inline;
+    }
+    #SummerHouseName{
+        width: fit-content;
+    }
+    #SummerHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #SummerHouseName{
+        position: absolute;
+    }
+    #WoodenHouse{
+        display: inline-block;
+    }
+    #WoodenHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 5%;
+    }
+    #ModernHouse{
+        display: inline;
+    }
+    #ModernHouseName{
+        position: absolute;
+    }
+    #ModernHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #BigHouse{
+        display: inline-block;
+    }
+    #BigHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #Firstperson{
+        display: block;
+        width: min-content;
+    }
+    #NameOffirst1{
+        text-align: center;
+    }
+    #SecondPerson{
+        display: block;
+        width: min-content;
+        margin-left: unset;
+    }
+    #NameOfSecond{
+        text-align: center;
+    }
+    #ThirdPerson{
+        display: block;
+        width: min-content;   
+        margin-left: unset;
+    }
+    #NameOfThird{
+        text-align: center;
+    }
+}
+@media (min-width:700px) and (max-width:800px) {
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 400px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 40%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 48%;
+        margin-top: 40%;
+        color: orangered;
+    }
+    #AllProjects{
+        display: inline;
+    }
+    #SummerHouse{
+        display: inline;
+    }
+    #SummerHouseName{
+        width: fit-content;
+    }
+    #SummerHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #SummerHouseName{
+        position: absolute;
+    }
+    #WoodenHouse{
+        display: inline-block;
+    }
+    #WoodenHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 5%;
+    }
+    #ModernHouse{
+        display: inline-block;
+        margin-left: 5%;
+    }
+    #ModernHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #BigHouse{
+        display: inline-block;
+    }
+    #BigHouseName{
+        margin-left: 0%;
+
+    }
+    #BigHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 0%;
+    }
+    #Firstperson{
+        display: block;
+        width: min-content;
+    }
+    #Firstperson{
+        display: inline-block;
+        width: min-content;
+    }
+    #NameOffirst1{
+        text-align: center;
+    }
+    #SecondPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 15%;
+    }
+    #NameOfSecond{
+        text-align: center;
+    }
+    #ThirdPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 15%;
+    }
+}
+@media (min-width:800px) and (max-width:900px) {
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 475px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 40%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 48%;
+        margin-top: 40%;
+        color: orangered;
+    }
+    #AllProjects{
+        display: inline;
+    }
+    #SummerHouse{
+        display: inline;
+    }
+    #SummerHouseName{
+        width: fit-content;
+    }
+    #SummerHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #SummerHouseName{
+        position: absolute;
+    }
+    #WoodenHouse{
+        display: inline-block;
+        margin-left: 5%;
+    }
+    #WoodenHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 5%;
+    }
+    #ModernHouse{
+        display: inline-block;
+        margin-left: 10%;
+    }
+    #ModernHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #BigHouse{
+        display: inline-block;
+    }
+    #BigHouseName{
+        margin-left: 0%;
+    }
+    #BigHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 0%;
+    }
+    #NameOffirst1{
+        text-align: center;
+    }
+    #SecondPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 15%;
+    }
+    #NameOfSecond{
+        text-align: center;
+    }
+    #ThirdPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 15%;
+    }
+}
+@media (min-width:900px) and (max-width:1000px) {
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 475px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 40%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 48%;
+        margin-top: 40%;
+        color: orangered;
+    }
+    #AllProjects{
+        display: inline;
+    }
+    #SummerHouse{
+        display: inline;
+    }
+    #SummerHouseName{
+        width: fit-content;
+    }
+    #SummerHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #SummerHouseName{
+        position: absolute;
+    }
+    #WoodenHouse{
+        display: inline-block;
+        margin-left: 13%;
+    }
+    #WoodenHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 5%;
+    }
+    #ModernHouse{
+        display: inline-block;
+        margin-left: 15%;
+    }
+    #ModernHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #BigHouse{
+        display: inline-block;
+    }
+    #BigHouseName{
+        margin-left: 0%;
+    }
+    #BigHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 0%;
+
+    }
+    #NameOffirst1{
+        text-align: center;
+    }
+    #SecondPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 20%;
+    }
+    #NameOfSecond{
+        text-align: center;
+    }
+    #ThirdPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 20%;
+    }
+}
+@media (min-width:1000px) and (max-width:1072px) {
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 475px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 43%;
+        margin-top: 30%;
+        color: orangered;
+    }
+    #AllProjects{
+        display: inline;
+    }
+    #SummerHouse{
+        display: inline;
+    }
+    #SummerHouseName{
+        width: fit-content;
+    }
+    #SummerHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #SummerHouseName{
+        position: absolute;
+    }
+    #WoodenHouse{
+        display: inline-block;
+        margin-left: 5%;
+    }
+    #WoodenHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 5%;
+    }
+    #ModernHouse{
+        display: inline-block;
+        margin-left: 5%;
+    }
+    #ModernHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #BigHouse{
+        display: inline-block;
+    }
+    #BigHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #NameOffirst1{
+        text-align: center;
+    }
+    #SecondPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 20%;
+    }
+    #NameOfSecond{
+        text-align: center;
+    }
+    #ThirdPerson{
+        display: inline-block;
+        width: min-content;
+        margin-left: 20%;
+    }
+}
+@media (min-width: 1072px) and (max-width:1287px){
+    #SecondNameOfsite{
+        display: inline;
+    }
+    #ButtonToNavigate{
+        display: inline-block;
+        margin-left: 0%;
+    }
+    #ContactUsButton{
+        display: inline-block;
+    }
+    #IMGForUsPage{
+        width: 100%;
+        height: 475px;
+    }
+    #FirstNameForUsPage{
+        margin-left: 40%;
+        margin-top: 30%;
+    }
+    #SecondNameForUsPage{
+        margin-left: 43%;
+        margin-top: 30%;
+        color: orangered;
+    }
+    #AllProjects{
+        display: inline;
+    }
+    #SummerHouse{
+        display: inline;
+    }
+    #SummerHouseName{
+        width: fit-content;
+    }
+    #SummerHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #SummerHouseName{
+        position: absolute;
+    }
+    #WoodenHouse{
+        display: inline-block;
+        margin-left: 10%;
+    }
+    #WoodenHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #ModernHouse{
+        display: inline-block;
+        margin-left: 10%;
+    }
+    #ModernHouseIMG{
+        width: 200px;
+        height: 300px;
+    }
+    #BigHouse{
+        display: inline-block;
+    }
+    #BigHouseName{
+        margin-left: 45%;
+
+    }
+    #BigHouseIMG{
+        width: 200px;
+        height: 300px;
+        margin-left: 45%;
+    }
+}
+@media (min-width:624px) and (max-width: 700px) {
+    #ModernHouseName{
+        display: inline;
+    }
+    #ModernHouse{
+        margin-left: 5%;
+    }
+}
